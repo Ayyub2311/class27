@@ -1,0 +1,26 @@
+/* .card{
+    border: solid;
+    border-radius: 10px;
+    text-align: center;
+    padding: 15px;
+    background-color: red;
+}
+
+.finish{
+    background-color: green;
+}
+
+.wrap{
+    display: flex;
+    flex-wrap: wrap;
+} */
+
+.wrap{
+    display: grid;
+    grid-template-columns: repeat();
+    gap: 20px;
+}
+
+img{
+    width: 50px;
+}
